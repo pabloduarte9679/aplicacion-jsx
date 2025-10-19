@@ -2,6 +2,7 @@ import './App.css'
 import {useState} from 'react';
 import deb from "./assets/guajolote.jpg"
 import crr from "./assets/correcaminos.jpg"
+import aguila from "./assets/aguila.png"
 const rootContainer = {
   width: "100vw",
   height: "100vh",
@@ -95,7 +96,12 @@ function App() {
       team: "Kevin, Carlos, Daniel, Salvador",
       img: deb
     },
-    
+    {
+      id: 3,
+      name: "aguila",
+      team: "Angel, Emiliano, Angel",
+      img: aguila
+    }
   ];
   return (
    <div style={rootContainer}>
