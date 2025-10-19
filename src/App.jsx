@@ -31,7 +31,7 @@ const ItemStyle = {
 };
 const MainHeader = () => {
   return (
-    <header><h1>Casa RavenclaW</H1></HEader>
+    <header><h1>Casa Ravenclaw</h1></header>
   );
 };
 
